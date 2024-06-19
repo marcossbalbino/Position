@@ -1,0 +1,51 @@
+.box{
+    width: 500px;
+    height: 500px;
+    border: 5px solid red;
+    margin: 10px auto;
+    position: relative;
+}
+
+.item1,.item2, .item3, .item4, .item5{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.item4{
+    background-color: green;
+    margin: 10px;
+    left: 380px;
+    top: 195px;
+    position: absolute;
+}
+
+.item2{
+    background-color: violet;
+    margin: 10px;
+    top: 1px;
+    left: 190px;
+    position: absolute;
+}
+
+.item1{
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    position: absolute;
+    top: 195px;
+}
+.item3{
+    background-color: orange;
+    margin: 10px;
+    top: 380px;
+    position: absolute;
+    left: 190px;
+}
+.item5{
+    background-color: rgb(0, 174, 255);
+    margin: 10px;
+    left: 190px;    
+    top: 195px;
+    position: absolute;
+}
